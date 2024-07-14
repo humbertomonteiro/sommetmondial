@@ -113,3 +113,9 @@
     padding: 1rem 1rem 0 0rem;
   }
 }
+
+@media (max-width: 450px) {
+  .title h2 {
+    font-size: 2.5rem;
+  }
+}
