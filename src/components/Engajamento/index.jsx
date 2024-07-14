@@ -8,10 +8,10 @@ export default function Engajamento() {
   return (
     <div id="engajamento" className={styles.container}>
       <div className={styles.content}>
-        <div className={styles.img} data-aos="fade-right">
+        <div className={styles.img} data-aos="zoom-in">
           <img src={box5} alt="Pessoas felizes" />
         </div>
-        <div className={styles.text} data-aos="fade-left">
+        <div className={styles.text} data-aos="zoom-in">
           <h3>SOMMET MONDIAL 2025</h3>
           <h2>impact social et engagement</h2>
           <p>

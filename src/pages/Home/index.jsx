@@ -11,7 +11,7 @@ export default function Home() {
         <div className={styles.img} data-aos="zoom-in">
           <img src={logo} alt="Logo" />
         </div>
-        <div className={styles.text} data-aos="zoom-out">
+        <div className={styles.text} data-aos="zoom-in">
           <h1>a venir prochainement 2025</h1>
           <h2>
             SOMMET MONDIAL 2025 <br /> UNISSANT LE MONDE À TRAVERS LA SCIENCE ET

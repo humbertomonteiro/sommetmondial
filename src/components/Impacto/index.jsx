@@ -8,10 +8,10 @@ export default function impacto() {
   return (
     <div id="impacto" className={styles.container}>
       <div className={styles.content}>
-        <div className={styles.img} data-aos="fade-left">
+        <div className={styles.img} data-aos="zoom-in">
           <img src={teafrica} alt="Teafrica" />
         </div>
-        <div className={styles.text} data-aos="fade-right">
+        <div className={styles.text} data-aos="zoom-in">
           <h3>SOMMET MONDIAL 2025</h3>
           <h2>impact social</h2>
           <p>
