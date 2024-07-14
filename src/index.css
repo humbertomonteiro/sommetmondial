@@ -1,0 +1,34 @@
+:root {
+  --color-text: #fff;
+  --color-text-black: #000;
+  --color-gray: #c9c9c9;
+  --color-red: #e30029;
+  --color-ciano: #d3daf2;
+  --color-green: #00756e;
+  --color-yellow: #bd9f00;
+  --color-red-transparent: rgb(140 0 25 / 71%);
+  --color-blue-transparent: rgb(21 0 150 / 85%);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background: url("./assets/imgs/background/background.png") no-repeat top fixed;
+  background-size: cover;
+  color: var(--color-text);
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}

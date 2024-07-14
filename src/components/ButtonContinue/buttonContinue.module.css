@@ -1,0 +1,27 @@
+.button,
+.button2 {
+  width: 280px;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--color-text);
+  box-shadow: 4px 4px 4px var(--color-text);
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+  transition: 0.3s;
+}
+
+.button2 {
+  color: var(--color-text-black);
+  box-shadow: 4px 4px 4px var(--color-red);
+}
+
+.button:hover {
+  background-color: rgba(240, 248, 255, 0.082);
+}
+
+.button2:hover {
+  background-color: rgba(126, 126, 126, 0.274);
+}

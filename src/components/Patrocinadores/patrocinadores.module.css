@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.title h2 {
+  font-size: 3rem;
+  margin-bottom: 6rem;
+}
+
+.content {
+  width: 1200px;
+  max-width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 22%;
+  margin-bottom: 1rem;
+}
+
+.box img {
+  border-radius: 1rem;
+}
+
+@media (max-width: 950px) {
+  .box {
+    width: 40%;
+  }
+}
