@@ -1,4 +1,3 @@
-import Background from "./components/Background";
 import Home from "./pages/Home";
 import ArcoTriunfo from "./components/ArcoTriunfo";
 import Ingresso from "./components/Ingresso";
@@ -23,7 +22,6 @@ function App() {
 
   return (
     <div>
-      <Background />
       <Home />
       <ArcoTriunfo />
       <Ingresso />
@@ -35,6 +33,11 @@ function App() {
       <Impacto />
       <JunteSe />
       <Versa />
+      <div className="background">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+      </div>
     </div>
   );
 }
