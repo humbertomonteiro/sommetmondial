@@ -18,7 +18,7 @@ export default function Ingresso() {
             <h3>Prévente Exclusive</h3>
             <ul>
               <li>Avantages du Sommet Mondial 2025</li>
-              <li>Date : 5 et 6 Avril 2025</li>
+              <li>Date : 15 et 16 Avril 2025</li>
               <li>
                 Conférenciers de Renom - Plus de 40 experts internationaux.
               </li>
@@ -60,7 +60,7 @@ export default function Ingresso() {
             <h3>Vente de Billets</h3>
             <ul>
               <li>Avantages du Sommet Mondial 2025</li>
-              <li>Date : 5 et 6 Avril 2025</li>
+              <li>Date : 15 et 16 Avril 2025</li>
               <li>
                 Conférenciers de Renom - Plus de 40 experts internationaux.
               </li>
