@@ -46,12 +46,8 @@ export default function Ingresso() {
               </li>
             </ul>
             <div className={styles.buttons}>
-              <a
-                href="https://static.hotmart.com/shortener/index.html"
-                target="_blank"
-                className={styles.button}
-              >
-                <FaShoppingCart /> 49,90
+              <a href="" target="_blank" className={styles.button}>
+                <FaShoppingCart /> BIENTÔT DISPONIBLE
               </a>
             </div>
           </div>

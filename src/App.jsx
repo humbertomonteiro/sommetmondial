@@ -22,17 +22,19 @@ function App() {
 
   return (
     <div>
-      <Home />
-      <ArcoTriunfo />
-      <Ingresso />
-      <Patrocinadores array={arrayPatrocinadores} />
-      <EnfrentandoDesafios />
-      <PorqueAgora />
-      <Potencial />
-      <Engajamento />
-      <Impacto />
-      <JunteSe />
-      <Versa />
+      <div className="content-page">
+        <Home />
+        <ArcoTriunfo />
+        <Ingresso />
+        <Patrocinadores array={arrayPatrocinadores} />
+        <EnfrentandoDesafios />
+        <PorqueAgora />
+        <Potencial />
+        <Engajamento />
+        <Impacto />
+        <JunteSe />
+        <Versa />
+      </div>
       <div className="background">
         <div id="stars"></div>
         <div id="stars2"></div>
