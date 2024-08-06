@@ -33,7 +33,7 @@ a {
 
 .background {
   background-image: url("./assets/imgs/background/background.png");
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: center;
   -o-background-size: cover;
   -moz-background-size: cover;
